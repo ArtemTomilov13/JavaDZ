@@ -1,8 +1,8 @@
-package geekbrains;
+package Homework1;
 //Task1
 //Заполните массив случайным числами и выведите максимальное, минимальное и среднее значение.
 //Для генерации случайного числа используйте метод Math.random(), который возвращает значение в промежутке [0, 300].
-public class Homework1 {
+public class Task1 {
     public static void main(String[] args) {
         int[] arr = new int[10];
         int maxNumber = 0;
