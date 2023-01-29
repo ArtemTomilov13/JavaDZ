@@ -25,7 +25,7 @@ public class Task1 {
 
     public static void main(String[] args) throws IOException {
         byte num;
-        System.out.println("Введите целое, число от -128 до 127: ");
+        System.out.println("Введите целое число от -128 до 127: ");
         try {
             Scanner scanNum = new Scanner(System.in);
             num = scanNum.nextByte();
